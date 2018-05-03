@@ -1,7 +1,7 @@
 # GenesisH0
 A python script for creating the parameters required for a unique genesis block. SHA256/scrypt/X11/X13/X15.
 
-### Altcoin创世区块
+### Altcoin 创世区块
 Create the original genesis hash found in Altcoin
 
     python genesis.py -z "shanghai stock index closed at 3159.05, on 13th Apr., 2018" -a SHA256 -p 048a6fd44edaaf1686ba1663247d10866c8ee2af4b7ddb00d4294b01753e75f150bc1271ba5df0bd3d2e02a6643e55abfb2245a6a6ad487a70f2e1bb128c76194b -v 10000000000
