@@ -5,8 +5,8 @@ A python script for creating the parameters required for a unique genesis block.
 Create the original genesis hash found in Altcoin
 
     python genesis.py -z "shanghai stock index closed at 3159.05, on 13th Apr., 2018" -a SHA256 -p 048a6fd44edaaf1686ba1663247d10866c8ee2af4b7ddb00d4294b01753e75f150bc1271ba5df0bd3d2e02a6643e55abfb2245a6a6ad487a70f2e1bb128c76194b -v 10000000000
-04ffff001d01043a7368616e676861692073746f636b20696e64657820636c6f73656420617420333135392e30352c206f6e2031337468204170722e2c2032303138
 Output：
+    
     algorithm: SHA256
     merkle hash: 6da63808648b8a42f1025a932b35a49403b944d367b4032aadb16282c43e9a51
     pszTimestamp: shanghai stock index closed at 3159.05, on 13th Apr., 2018
