@@ -66,7 +66,7 @@ Create the original genesis hash found in HiroCoin (requires [xcoin-hash](https:
     Usage: genesis.py [options]
 
     Options:
-      -h, --显示帮助并退出
+      -h --help 显示帮助并退出
       -t 时间, --time=TIME 创世区块产生时间(unix)，默认为当前系统时间
       -z 创世区块时间戳字符串, --timestamp=TIMESTAMP
       -n 工作量证明, --nonce=NONCE 搜索区块的次数用于证明工作量
@@ -75,5 +75,6 @@ Create the original genesis hash found in HiroCoin (requires [xcoin-hash](https:
       -v 金额, --value=VALUE
          the value in coins for the output, full value (exp. in bitcoin 5000000000 - To get other coins value: Block Value * 100000000)
       -b 难度, --bits=BITS
+
 
 
