@@ -64,21 +64,16 @@ Create the original genesis hash found in HiroCoin (requires [xcoin-hash](https:
 
 ### Options
     Usage: genesis.py [options]
-    
+
     Options:
-      -h, --help show this help message and exit
-      -t TIME, --time=TIME  the (unix) time when the genesisblock is created
-      -z TIMESTAMP, --timestamp=TIMESTAMP
-         the pszTimestamp found in the coinbase of the genesisblock
-      -n NONCE, --nonce=NONCE
-         the first value of the nonce that will be incremented
-         when searching the genesis hash
-      -a ALGORITHM, --algorithm=ALGORITHM
-         the PoW algorithm: [SHA256|scrypt|X11|X13|X15]
-      -p PUBKEY, --pubkey=PUBKEY
-         the pubkey found in the output script
-      -v VALUE, --value=VALUE
+      -h, --显示帮助并退出
+      -t 时间, --time=TIME 创世区块产生时间(unix)，默认为当前系统时间
+      -z 创世区块时间戳字符串, --timestamp=TIMESTAMP
+      -n 工作量证明, --nonce=NONCE 搜索区块的次数用于证明工作量
+      -a 算法, --algorithm=ALGORITHM 工作量证明算法: [SHA256|scrypt|X11|X13|X15]
+      -p 公钥, --pubkey=PUBKEY 用于创建coinbase交易输出脚本公钥
+      -v 金额, --value=VALUE
          the value in coins for the output, full value (exp. in bitcoin 5000000000 - To get other coins value: Block Value * 100000000)
-      -b BITS, --bits=BITS
-         the target in compact representation, associated to a difficulty of 1
+      -b 难度, --bits=BITS
+
 
